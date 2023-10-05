@@ -5,9 +5,9 @@ public class Contador {
         if (firstParameter > secondParameter) {
             throw new ParametrosInvalidosException();
         }
-        int contagem = secondParameter - firstParameter;
+        int count = secondParameter - firstParameter;
 
-        for(int i = 1; i < contagem; i++){
+        for(int i = 1; i < count; i++){
             System.out.println("Imprimindo o número " + i);
         }
     }
